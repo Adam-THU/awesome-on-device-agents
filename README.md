@@ -1,124 +1,113 @@
 # Awesome Mobile Agents
 
-A curated reading list for **mobile agents**, **mobile GUI automation**, and **on-device / edge inference optimization**.
+A curated reading list for **mobile agents**, **mobile GUI automation**, and **efficient on-device / edge inference**.
 
-This repository focuses on two connected questions:
+This repository focuses on the intersection between two research questions:
 
-1. **Mobile agent applications**: how agents perceive, reason, and act on mobile devices, apps, sensors, and local user context.
-2. **On-device inference optimization**: how LLMs, VLMs, SLMs, and agent systems can run efficiently on resource-constrained devices.
+1. How can agents perceive, reason, verify, and act on mobile devices and mobile apps?
+2. How can language models and agent systems run efficiently under on-device constraints such as latency, memory, energy, and heterogeneous accelerators?
 
-The goal is not to collect every agent paper. The goal is to maintain a structured map for research on **mobile agents that are useful in real applications and feasible on edge devices**.
+The list is intentionally selective. It starts from papers that are closely related to mobile agents, on-device inference, mobile automation, safety, and device-cloud collaboration.
 
 ## Scope
 
 Included topics:
 
-- Mobile GUI agents and phone automation
-- Multimodal mobile agents
-- Personal mobile agents
-- Multi-device and device-cloud collaborative agents
-- On-device LLM / VLM / SLM inference
-- Quantization, compression, runtime, memory, and energy optimization
-- Benchmarks, datasets, surveys, and open-source systems
+- Mobile GUI agents and Android task automation
+- Efficient on-device LLM / SLM inference
+- Safety, verification, and reliability for mobile agents
+- Agent applications on mobile apps and mobile security
+- Device-cloud and multi-device collaborative agents
+- Broader edge intelligence papers that inform on-device agent systems
 
 Out of scope:
 
 - Generic web agents with no mobile or edge-device relevance
-- Cloud-only agent systems with no edge/mobile deployment angle
-- Pure model papers without agent, mobile, or edge inference relevance
+- Cloud-only agent systems with no mobile, edge, or deployment angle
+- Pure model capability papers without relevance to mobile agents or on-device inference
 
 ## Taxonomy
 
 ```text
-Mobile Agents
-├── Applications
-│   ├── Mobile GUI Agents
-│   ├── Mobile App Exploration / Automation
-│   ├── Personal Mobile Agents
-│   ├── Multimodal Mobile Agents
-│   └── Multi-device / Collaborative Agents
-│
-├── Agent Capabilities
-│   ├── Perception
-│   ├── Planning
-│   ├── Tool Use
-│   ├── Verification / Safety
-│   ├── Memory
-│   └── Communication
-│
-└── On-device Inference
-    ├── Small Language Models
-    ├── On-device LLMs / VLMs
-    ├── Quantization / Compression
-    ├── Runtime and Kernel Optimization
-    ├── Memory and KV-cache Optimization
-    ├── Energy Efficiency
-    └── Device-cloud Collaboration
+Awesome Mobile Agents
++-- Survey
++-- Efficient On-device Inference
++-- Mobile GUI Agents and Android Task Automation
++-- Security
++-- Application
++-- Device-Cloud & Multi-device Collaboration
++-- Edge Intelligence
 ```
 
 ## Paper Index
 
-### Surveys and Position Papers
+### 1. Survey
 
-- [Agent AI: Surveying the Horizons of Multimodal Interaction](papers/surveys.md#agent-ai-surveying-the-horizons-of-multimodal-interaction)
-- [LLM-Powered GUI Agents in Phone Automation: Surveying Progress and Prospects](papers/surveys.md#llm-powered-gui-agents-in-phone-automation-surveying-progress-and-prospects)
-- [Mobile Edge Intelligence for Large Language Models: A Contemporary Survey](papers/surveys.md#mobile-edge-intelligence-for-large-language-models-a-contemporary-survey)
-- [On-Device Language Models: A Comprehensive Review](papers/surveys.md#on-device-language-models-a-comprehensive-review)
-- [Personal LLM Agents: Insights and Survey about the Capability, Efficiency and Security](papers/surveys.md#personal-llm-agents-insights-and-survey-about-the-capability-efficiency-and-security)
+| Paper | Year | Venue / Journal | Link |
+|---|---:|---|---|
+| LLM-Powered GUI Agents in Phone Automation: Surveying Progress and Prospects | 2025 | TMLR | [TMLR](https://openreview.net/forum?id=c9g0OpnP7o) |
+| Mobile Edge Intelligence for Large Language Models: A Contemporary Survey | 2025 | IEEE Communications Surveys & Tutorials | [IEEE Xplore](https://ieeexplore.ieee.org/document/10835069) |
+| On-Device Language Models: A Comprehensive Review | 2024 | arXiv | [arXiv](https://arxiv.org/abs/2409.00088) |
+| Personal LLM Agents: Insights and Survey about the Capability, Efficiency and Security | 2024 | arXiv | [arXiv](https://arxiv.org/abs/2401.05459) |
 
-### Mobile GUI Agents and App Automation
+### 2. Efficient On-device Inference
 
-- [AutoDroid: LLM-powered Task Automation in Android](papers/mobile-gui-agents.md#autodroid-llm-powered-task-automation-in-android)
-- [AutoDroid-V2: Boosting SLM-based GUI Agents via Code Generation](papers/mobile-gui-agents.md#autodroid-v2-boosting-slm-based-gui-agents-via-code-generation)
-- [AgentCPM-GUI: Building Mobile-Use Agents with Reinforcement Fine-Tuning](papers/mobile-gui-agents.md#agentcpm-gui-building-mobile-use-agents-with-reinforcement-fine-tuning)
-- [Mobile-Agent-v2: Mobile Device Operation Assistant with Effective Navigation via Multi-Agent Collaboration](papers/mobile-gui-agents.md#mobile-agent-v2-mobile-device-operation-assistant-with-effective-navigation-via-multi-agent-collaboration)
-- [Step-GUI Technical Report](papers/mobile-gui-agents.md#step-gui-technical-report)
-- [LLM-Explorer: Towards Efficient and Affordable LLM-based Exploration for Mobile Apps](papers/mobile-gui-agents.md#llm-explorer-towards-efficient-and-affordable-llm-based-exploration-for-mobile-apps)
-- [MANA: Towards Efficient Mobile Ad Detection via Multimodal Agentic UI Navigation](papers/mobile-gui-agents.md#mana-towards-efficient-mobile-ad-detection-via-multimodal-agentic-ui-navigation)
+| Paper | Year | Venue / Journal | Link |
+|---|---:|---|---|
+| PowerInfer-2: Fast Large Language Model Inference on a Smartphone | 2024 | arXiv | [arXiv](https://arxiv.org/abs/2406.06282) |
+| Fast On-device LLM Inference with NPUs | 2025 | ASPLOS | [ACM DL](https://dl.acm.org/doi/10.1145/3669940.3707255) |
+| Elastic On-Device LLM Service | 2025 | ACM MobiCom | [ACM DL](https://dl.acm.org/doi/10.1145/3711875.3729133) |
+| EdgeLLM: Fast On-Device LLM Inference With Speculative Decoding | 2025 | IEEE Transactions on Mobile Computing | [IEEE Xplore](https://ieeexplore.ieee.org/document/10858427) |
+| EdgeMoE: Empowering Sparse Large Language Models on Mobile Devices | 2025 | IEEE Transactions on Mobile Computing | [IEEE Xplore](https://ieeexplore.ieee.org/document/10856570) |
+| Neuralink: Fast on-Device LLM Inference with Neuron Co-Activation Linking | 2025 | ASPLOS | [ACM DL](https://dl.acm.org/doi/10.1145/3676642.3736114) |
+| D2MoE: Dual Routing and Dynamic Scheduling for Efficient On-Device MoE-based LLM Serving | 2025 | ACM MobiCom | [ACM DL](https://dl.acm.org/doi/10.1145/3711875.3729168) |
+| CLONE: Customizing LLMs for Efficient Latency-Aware Inference at the Edge | 2025 | USENIX ATC | [USENIX](https://www.usenix.org/conference/atc25/presentation/tian) |
+| HeteroLLM: Accelerating Large Language Model Inference on Mobile SoCs with Heterogeneous AI Accelerators | 2025 | SOSP | [arXiv](https://arxiv.org/abs/2505.14788) |
+| T-MAC: CPU Renaissance via Table Lookup for Low-Bit LLM Deployment on Edge | 2025 | EuroSys | [ACM DL](https://dl.acm.org/doi/10.1145/3689031.3696074) |
+| T-MAN: Enabling End-to-End Low-Bit LLM Inference on NPUs via Unified Table Lookup | 2025 | arXiv | [arXiv](https://arxiv.org/abs/2505.17843) |
+| Scaling LLM Test-Time Compute with Mobile NPU on Smartphones | 2026 | EuroSys | [ACM DL](https://dl.acm.org/doi/10.1145/3715336.3735835) |
 
-### Verification, Safety, and Deployment
+### 3. Mobile GUI Agents and Android Task Automation
 
-- [Advancing Mobile GUI Agents: A Verifier-Driven Approach to Practical Deployment](papers/verification-safety.md#advancing-mobile-gui-agents-a-verifier-driven-approach-to-practical-deployment)
-- [VeriSafe Agent: Safeguarding Mobile GUI Agent via Logic-based Action Verification](papers/verification-safety.md#verisafe-agent-safeguarding-mobile-gui-agent-via-logic-based-action-verification)
+| Paper | Year | Venue / Journal | Link |
+|---|---:|---|---|
+| Advancing Mobile GUI Agents: A Verifier-Driven Approach to Practical Deployment | 2026 | ACM MobiCom | [Microsoft Research](https://www.microsoft.com/en-us/research/publication/advancing-mobile-gui-agents-a-verifier-driven-approach-to-practical-deployment/) |
+| AutoDroid-V2: Boosting SLM-based GUI Agents via Code Generation | 2025 | ACM MobiSys | [ACM DL](https://dl.acm.org/doi/10.1145/3711875.3729134) |
+| AutoDroid: LLM-powered Task Automation in Android | 2024 | ACM MobiCom | [ACM DL](https://dl.acm.org/doi/10.1145/3636534.3649379) |
 
-### On-device and Edge Inference
+### 4. Security
 
-- [Ferret-UI Lite: Lessons from Building Small On-Device GUI Agents](papers/on-device-inference.md#ferret-ui-lite-lessons-from-building-small-on-device-gui-agents)
-- [EcoAgent: An Efficient Device-Cloud Collaborative Multi-Agent Framework for Mobile Automation](papers/on-device-inference.md#ecoagent-an-efficient-device-cloud-collaborative-multi-agent-framework-for-mobile-automation)
-- [Intelligence per Watt: Measuring Intelligence Efficiency of Local AI](papers/on-device-inference.md#intelligence-per-watt-measuring-intelligence-efficiency-of-local-ai)
-- [Small Language Models are the Future of Agentic AI](papers/on-device-inference.md#small-language-models-are-the-future-of-agentic-ai)
-- [GLM-4.5V and GLM-4.1V-Thinking: Towards Versatile Multimodal Reasoning with Scalable Reinforcement Learning](papers/on-device-inference.md#glm-45v-and-glm-41v-thinking-towards-versatile-multimodal-reasoning-with-scalable-reinforcement-learning)
+| Paper | Year | Venue / Journal | Link |
+|---|---:|---|---|
+| Advancing Mobile GUI Agents: A Verifier-Driven Approach to Practical Deployment | 2026 | ACM MobiCom | [Microsoft Research](https://www.microsoft.com/en-us/research/publication/advancing-mobile-gui-agents-a-verifier-driven-approach-to-practical-deployment/) |
+| AutoDroid-V2: Boosting SLM-based GUI Agents via Code Generation | 2025 | ACM MobiSys | [ACM DL](https://dl.acm.org/doi/10.1145/3711875.3729134) |
+| AutoDroid: LLM-powered Task Automation in Android | 2024 | ACM MobiCom | [ACM DL](https://dl.acm.org/doi/10.1145/3636534.3649379) |
 
-### Related Mobile Systems and Apps
+### 5. Application
 
-- [Studying Ad Library Integration Strategies of Top Free-to-Download Apps](papers/related-mobile-systems.md#studying-ad-library-integration-strategies-of-top-free-to-download-apps)
+| Paper | Year | Venue / Journal | Link |
+|---|---:|---|---|
+| LLM-Explorer: Towards Efficient and Affordable LLM-based Exploration for Mobile Apps | 2025 | arXiv | [arXiv](https://arxiv.org/abs/2505.10593) |
+| MANA: Towards Efficient Mobile Ad Detection via Multimodal Agentic UI Navigation | 2026 | arXiv | [arXiv](https://arxiv.org/abs/2603.20351) |
 
-## Reading Roadmap
+### 6. Device-Cloud & Multi-device Collaboration
 
-See [surveys/reading-map.md](surveys/reading-map.md).
+| Paper | Year | Venue / Journal | Link |
+|---|---:|---|---|
+| EcoAgent: An Efficient Device-Cloud Collaborative Multi-Agent Framework for Mobile Automation | 2026 | AAAI | [AAAI](https://ojs.aaai.org/index.php/AAAI/article/view/38088) |
 
-## Open Problems
+### 7. Edge Intelligence
 
-See [surveys/open-problems.md](surveys/open-problems.md).
+| Paper | Year | Venue / Journal | Link |
+|---|---:|---|---|
+| Small Language Models are the Future of Agentic AI | 2025 | arXiv | [arXiv](https://arxiv.org/abs/2506.02153) |
+
+## Notes
+
+- The same paper may appear in more than one category when it is relevant to multiple themes.
+- For arXiv papers, the venue column is updated when a formal conference or journal version can be verified.
+- The current index is seeded by reviewed papers and should be expanded cautiously rather than treated as an exhaustive mobile-agent bibliography.
 
 ## Contribution
 
 Contributions are welcome. Please see [CONTRIBUTING.md](CONTRIBUTING.md).
-
-## Citation Format
-
-Each paper entry uses the following lightweight template:
-
-```markdown
-### Paper Title
-
-- **Venue / Year**:
-- **Topic**:
-- **Device / Platform**:
-- **Modalities**:
-- **Agent relevance**:
-- **Inference relevance**:
-- **Links**:
-- **Notes**:
-```
-
