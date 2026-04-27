@@ -72,9 +72,8 @@ Awesome On-Device Agents
 
 | Paper | Year | Venue / Journal | Link |
 |---|---:|---|---|
-| Advancing Mobile GUI Agents: A Verifier-Driven Approach to Practical Deployment | 2025 | arXiv | [arXiv](https://arxiv.org/abs/2503.15937) |
-| AutoDroid-V2: Boosting SLM-based GUI Agents via Code Generation | 2025 | ACM MobiSys | [DOI](https://doi.org/10.1145/3711875.3729134) |
-| AutoDroid: LLM-powered Task Automation in Android | 2024 | ACM MobiCom | [DOI](https://doi.org/10.1145/3636534.3649379) |
+| VeriSafe Agent: Safeguarding Mobile GUI Agent via Logic-based Action Verification | 2025 | ACM MobiCom | [DOI](https://doi.org/10.1145/3680207.3765248) |
+| Mobile GUI Agents under Real-world Threats: Are We There Yet? | 2026 | ACM MobiSys | [DOI](https://doi.org/10.1145/3745756.3809249) |
 
 ### 4. Security
 
