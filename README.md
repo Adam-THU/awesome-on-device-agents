@@ -19,6 +19,7 @@ Included topics:
 - Agent applications on mobile apps and mobile security
 - Device-cloud and multi-device collaborative agents
 - Broader edge intelligence papers that inform on-device agent systems
+- Open-source systems for local inference, mobile AI engines, and device-cloud handoff
 
 Out of scope:
 
@@ -38,6 +39,7 @@ Awesome On-Device Agents
 +-- Device-Cloud & Multi-device Collaboration
 +-- Dataset & Benchmark
 +-- Edge Intelligence
++-- Open-Source Systems
 ```
 
 ## Paper Index
@@ -119,10 +121,18 @@ Awesome On-Device Agents
 | Intelligence per Watt: Measuring Intelligence Efficiency of Local AI | Nov 2025 | arXiv | [Paper](https://arxiv.org/abs/2511.07885) |
 | Small Language Models are the Future of Agentic AI | Sep 2025 | arXiv | [Paper](https://arxiv.org/abs/2506.02153) |
 
+## Open-Source Systems
+
+| Project | Focus | Platform / Scope | Link |
+|---|---|---|---|
+| OmniInfer | Cross-platform local LLM/VLM inference engine with multi-backend support and OpenAI-compatible API server | Local inference across devices | [GitHub](https://github.com/omnimind-ai/OmniInfer) |
+| Cactus | Low-latency AI engine for mobile devices and wearables, with multimodal APIs, ARM optimizations, and cloud fallback | Mobile and wearable AI | [GitHub](https://github.com/cactus-compute/cactus) |
+
 ## Notes
 
 - The same paper may appear in more than one category when it is relevant to multiple themes.
 - For arXiv papers, the venue column is updated when a formal conference or journal version can be verified.
+- Open-source systems are listed separately from papers and are not treated as peer-reviewed publications.
 - The current index is seeded by reviewed papers and should be expanded cautiously rather than treated as an exhaustive mobile-agent bibliography.
 
 ## Contribution
