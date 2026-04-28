@@ -46,7 +46,8 @@ Awesome On-Device Agents
 
 | Paper | Date | Venue | Link |
 |---|---:|---|---|
-| Efficient Inference for Edge Large Language Models: A Survey | 2026 | TST | [Paper](https://doi.org/10.26599/TST.2025.9010166) |
+| Efficient Inference for Edge Large Language Models: A Survey | 2026.6 | TST | [Paper](https://doi.org/10.26599/TST.2025.9010166) |
+| GUI Agents: A Survey | 2025.7 | Findings ACL | [Paper](https://aclanthology.org/2025.findings-acl.1158/) |
 | LLM-Powered GUI Agents in Phone Automation: Surveying Progress and Prospects | 2025.5 | arXiv | [Paper](https://arxiv.org/abs/2504.19838) |
 | Mobile Edge Intelligence for Large Language Models: A Contemporary Survey | 2025.3 | COMST | [Paper](https://doi.org/10.1109/COMST.2025.3527641) |
 | On-Device Language Models: A Comprehensive Review | 2024.8 | arXiv | [Paper](https://arxiv.org/abs/2409.00088) |
@@ -77,7 +78,9 @@ Awesome On-Device Agents
 | MANA: Towards Efficient Mobile Ad Detection via Multimodal Agentic UI Navigation | 2026.3 | MobiCom | [Paper](https://arxiv.org/abs/2603.20351) |
 | VeriSafe Agent: Safeguarding Mobile GUI Agent via Logic-based Action Verification | 2025.11 | MobiCom | [Paper](https://doi.org/10.1145/3680207.3765248) |
 | Advancing Mobile GUI Agents: A Verifier-Driven Approach to Practical Deployment | 2025.10 | MobiCom | [Paper](https://arxiv.org/abs/2503.15937) |
+| UI-TARS-2 Technical Report: Advancing GUI Agent with Multi-Turn Reinforcement Learning | 2025.9 | arXiv | [Paper](https://arxiv.org/abs/2509.02544) |
 | AutoDroid-V2: Boosting SLM-based GUI Agents via Code Generation | 2025.6 | MobiSys | [Paper](https://doi.org/10.1145/3711875.3729134) |
+| ShowUI: One Vision-Language-Action Model for GUI Visual Agent | 2025.6 | CVPR | [Paper](https://openaccess.thecvf.com/content/CVPR2025/html/Lin_ShowUI_One_Vision-Language-Action_Model_for_GUI_Visual_Agent_CVPR_2025_paper.html) |
 | LLM-Explorer: Towards Efficient and Affordable LLM-based Exploration for Mobile Apps | 2025.5 | MobiCom | [Paper](https://arxiv.org/abs/2505.10593) |
 | AutoDroid: LLM-powered Task Automation in Android | 2024.5 | MobiCom | [Paper](https://doi.org/10.1145/3636534.3649379) |
 
@@ -86,6 +89,7 @@ Awesome On-Device Agents
 | Paper | Date | Venue | Link |
 |---|---:|---|---|
 | EcoAgent: An Efficient Device-Cloud Collaborative Multi-Agent Framework for Mobile Automation | 2026 | AAAI | [Paper](https://doi.org/10.1609/aaai.v40i35.40230) |
+| OpenPhone: Mobile Agentic Foundation Models | 2025.10 | arXiv | [Paper](https://arxiv.org/abs/2510.22009) |
 | Jupiter: Fast and Resource-Efficient Collaborative Inference of Generative LLMs on Edge Devices | 2025.5 | INFOCOM | [Paper](https://doi.org/10.1109/INFOCOM55648.2025.11044734) |
 | Federated Adaptive Fine-Tuning of Large Language Models with Heterogeneous Quantization and LoRA | 2025.5 | INFOCOM | [Paper](https://doi.org/10.1109/INFOCOM55648.2025.11044641) |
 | Towards Federated Inference: An Online Model Ensemble Framework for Cooperative Edge AI | 2025.5 | INFOCOM | [Paper](https://doi.org/10.1109/INFOCOM55648.2025.11044578) |
@@ -106,6 +110,8 @@ Extended reading on efficiency, scaling, and deployment trends that inform on-de
 
 | Paper | Date | Venue | Link |
 |---|---:|---|---|
+| Rethinking Scale: Deployment Trade-offs of Small Language Models under Agent Paradigms | 2026.4 | arXiv | [Paper](https://arxiv.org/abs/2604.19299) |
+| An Information Theoretic Perspective on Agentic System Design | 2026.4 | ICLR | [Paper](https://arxiv.org/abs/2512.21720) |
 | Densing law of LLMs | 2025.11 | Nat. Mach. Intell. | [Paper](https://doi.org/10.1038/s42256-025-01137-0) |
 | Intelligence per Watt: Measuring Intelligence Efficiency of Local AI | 2025.11 | arXiv | [Paper](https://arxiv.org/abs/2511.07885) |
 | Small Language Models are the Future of Agentic AI | 2025.9 | arXiv | [Paper](https://arxiv.org/abs/2506.02153) |
@@ -114,6 +120,7 @@ Extended reading on efficiency, scaling, and deployment trends that inform on-de
 
 | Project | Focus | Platform / Scope | Link |
 |---|---|---|---|
+| llama.cpp | Widely used local LLM inference runtime with CPU/GPU backends and broad model support | Local LLM inference | [GitHub](https://github.com/ggml-org/llama.cpp) |
 | OmniInfer | Cross-platform local LLM/VLM inference engine with multi-backend support and OpenAI-compatible API server | Local inference across devices | [GitHub](https://github.com/omnimind-ai/OmniInfer) |
 | Cactus | Low-latency AI engine for mobile devices and wearables, with multimodal APIs, ARM optimizations, and cloud fallback | Mobile and wearable AI | [GitHub](https://github.com/cactus-compute/cactus) |
 | mLLM | Fast and lightweight multimodal LLM inference engine for mobile and edge devices, with Android, Jetson, and QNN/NPU support | Mobile and edge multimodal inference | [GitHub](https://github.com/UbiquitousLearning/mLLM) |
