@@ -135,10 +135,14 @@ Extended reading on efficiency, scaling, and deployment trends that inform on-de
 | Project | Focus | Platform / Scope | Link |
 |---|---|---|---|
 | llama.cpp | Widely used local LLM inference runtime with CPU/GPU backends and broad model support | Local LLM inference | [GitHub](https://github.com/ggml-org/llama.cpp) |
+| MLC LLM | Universal LLM deployment engine targeting native apps, mobile devices, browsers, and GPUs | Cross-platform LLM deployment | [GitHub](https://github.com/mlc-ai/mlc-llm) |
+| ExecuTorch | PyTorch edge runtime for deploying AI models on mobile, embedded, and edge devices | On-device AI runtime | [GitHub](https://github.com/pytorch/executorch) |
+| MNN | Lightweight deep learning inference engine for mobile and edge devices, with LLM deployment support | Mobile and edge inference | [GitHub](https://github.com/alibaba/MNN) |
 | OmniInfer | Cross-platform local LLM/VLM inference engine with multi-backend support and OpenAI-compatible API server | Local inference across devices | [GitHub](https://github.com/omnimind-ai/OmniInfer) |
 | Cactus | Low-latency AI engine for mobile devices and wearables, with multimodal APIs, ARM optimizations, and cloud fallback | Mobile and wearable AI | [GitHub](https://github.com/cactus-compute/cactus) |
 | mLLM | Fast and lightweight multimodal LLM inference engine for mobile and edge devices, with Android, Jetson, and QNN/NPU support | Mobile and edge multimodal inference | [GitHub](https://github.com/UbiquitousLearning/mLLM) |
 | Open-AutoGLM | Phone agent framework that uses VLM-based screen understanding, planning, and ADB-based device control for mobile task automation | Android phone agent | [GitHub](https://github.com/zai-org/Open-AutoGLM) |
+| Mobile-Agent | Open-source mobile device operation assistant framework for GUI task automation | Mobile GUI agent | [GitHub](https://github.com/X-PLUG/MobileAgent) |
 
 ## Notes
 
