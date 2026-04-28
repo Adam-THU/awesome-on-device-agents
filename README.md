@@ -88,7 +88,7 @@ Awesome On-Device Agents
 
 | Paper | Date | Venue | Link |
 |---|---:|---|---|
-| EcoAgent: An Efficient Device-Cloud Collaborative Multi-Agent Framework for Mobile Automation | 2026 | AAAI | [Paper](https://doi.org/10.1609/aaai.v40i35.40230) |
+| EcoAgent: An Efficient Device-Cloud Collaborative Multi-Agent Framework for Mobile Automation | 2026.4 | AAAI | [Paper](https://doi.org/10.1609/aaai.v40i35.40230) |
 | OpenPhone: Mobile Agentic Foundation Models | 2025.10 | arXiv | [Paper](https://arxiv.org/abs/2510.22009) |
 | Jupiter: Fast and Resource-Efficient Collaborative Inference of Generative LLMs on Edge Devices | 2025.5 | INFOCOM | [Paper](https://doi.org/10.1109/INFOCOM55648.2025.11044734) |
 | Federated Adaptive Fine-Tuning of Large Language Models with Heterogeneous Quantization and LoRA | 2025.5 | INFOCOM | [Paper](https://doi.org/10.1109/INFOCOM55648.2025.11044641) |
