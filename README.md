@@ -7,7 +7,7 @@ This repository focuses on the intersection between two research questions:
 1. How can agents perceive, reason, verify, and act on mobile devices and mobile apps?
 2. How can language models and agent systems run efficiently under on-device constraints such as latency, memory, energy, and heterogeneous accelerators?
 
-Efficient on-device inference is a prerequisite for practical on-device agents: without low-latency, memory-efficient, and energy-aware inference, agents cannot reliably run close to users, data, sensors, and apps. The list is intentionally selective. It starts from papers that are closely related to mobile agents, on-device inference, mobile automation, safety, and device-cloud collaboration.
+Efficient on-device inference is a prerequisite for practical on-device agents: without low-latency, memory-efficient, and energy-aware inference, agents cannot reliably run close to users, data, sensors, and apps. The list is intentionally selective and currently focuses on recent papers from 2024 onward, starting from work closely related to mobile agents, on-device inference, mobile automation, safety, and device-cloud collaboration.
 
 ## Scope
 
@@ -33,9 +33,7 @@ Out of scope:
 Awesome On-Device Agents
 +-- Survey
 +-- Efficient On-device Inference
-+-- Mobile GUI Agents and Android Task Automation
-+-- Security
-+-- Application
++-- Mobile Agent Systems, Safety, and Applications
 +-- Device-Cloud & Multi-device Collaboration
 +-- Dataset & Benchmark
 +-- Edge Intelligence
@@ -71,29 +69,19 @@ Awesome On-Device Agents
 | T-MAC: CPU Renaissance via Table Lookup for Low-Bit LLM Deployment on Edge | 2025.3 | EuroSys | [Paper](https://doi.org/10.1145/3689031.3696099) |
 | PowerInfer-2: Fast Large Language Model Inference on a Smartphone | 2024.6 | arXiv | [Paper](https://arxiv.org/abs/2406.06282) |
 
-### 3. Mobile GUI Agents and Android Task Automation
-
-| Paper | Date | Venue | Link |
-|---|---:|---|---|
-| Advancing Mobile GUI Agents: A Verifier-Driven Approach to Practical Deployment | 2025.10 | arXiv | [Paper](https://arxiv.org/abs/2503.15937) |
-| AutoDroid-V2: Boosting SLM-based GUI Agents via Code Generation | 2025.6 | MobiSys | [Paper](https://doi.org/10.1145/3711875.3729134) |
-| AutoDroid: LLM-powered Task Automation in Android | 2024.5 | MobiCom | [Paper](https://doi.org/10.1145/3636534.3649379) |
-
-### 4. Security
+### 3. Mobile Agent Systems, Safety, and Applications
 
 | Paper | Date | Venue | Link |
 |---|---:|---|---|
 | Mobile GUI Agents under Real-world Threats: Are We There Yet? | 2026.4 | MobiSys | [Paper](https://doi.org/10.1145/3745756.3809249) |
+| MANA: Towards Efficient Mobile Ad Detection via Multimodal Agentic UI Navigation | 2026.3 | MobiCom | [Paper](https://arxiv.org/abs/2603.20351) |
 | VeriSafe Agent: Safeguarding Mobile GUI Agent via Logic-based Action Verification | 2025.11 | MobiCom | [Paper](https://doi.org/10.1145/3680207.3765248) |
+| Advancing Mobile GUI Agents: A Verifier-Driven Approach to Practical Deployment | 2025.10 | MobiCom | [Paper](https://arxiv.org/abs/2503.15937) |
+| AutoDroid-V2: Boosting SLM-based GUI Agents via Code Generation | 2025.6 | MobiSys | [Paper](https://doi.org/10.1145/3711875.3729134) |
+| LLM-Explorer: Towards Efficient and Affordable LLM-based Exploration for Mobile Apps | 2025.5 | MobiCom | [Paper](https://arxiv.org/abs/2505.10593) |
+| AutoDroid: LLM-powered Task Automation in Android | 2024.5 | MobiCom | [Paper](https://doi.org/10.1145/3636534.3649379) |
 
-### 5. Application
-
-| Paper | Date | Venue | Link |
-|---|---:|---|---|
-| MANA: Towards Efficient Mobile Ad Detection via Multimodal Agentic UI Navigation | 2026.3 | arXiv | [Paper](https://arxiv.org/abs/2603.20351) |
-| LLM-Explorer: Towards Efficient and Affordable LLM-based Exploration for Mobile Apps | 2025.5 | arXiv | [Paper](https://arxiv.org/abs/2505.10593) |
-
-### 6. Device-Cloud & Multi-device Collaboration
+### 4. Device-Cloud & Multi-device Collaboration
 
 | Paper | Date | Venue | Link |
 |---|---:|---|---|
@@ -104,7 +92,7 @@ Awesome On-Device Agents
 | EdgeShard: Efficient LLM Inference via Collaborative Edge Computing | 2025.5 | JIOT | [Paper](https://doi.org/10.1109/JIOT.2024.3524255) |
 | Galaxy: A Resource-Efficient Collaborative Edge AI System for In-situ Transformer Inference | 2024.5 | INFOCOM | [Paper](https://doi.org/10.1109/INFOCOM52122.2024.10621342) |
 
-### 7. Dataset & Benchmark
+### 5. Dataset & Benchmark
 
 | Paper | Date | Venue | Link |
 |---|---:|---|---|
@@ -112,7 +100,7 @@ Awesome On-Device Agents
 | AndroidWorld: A Dynamic Benchmarking Environment for Autonomous Agents | 2025.4 | ICLR | [Paper](https://proceedings.iclr.cc/paper_files/paper/2025/hash/01a83bc2f2732a58e6aa731e659e7101-Abstract-Conference.html) |
 | MobileAgentBench: An Efficient and User-Friendly Benchmark for Mobile LLM Agents | 2024.6 | arXiv | [Paper](https://arxiv.org/abs/2406.08184) |
 
-### 8. Edge Intelligence
+### 6. Edge Intelligence
 
 | Paper | Date | Venue | Link |
 |---|---:|---|---|
@@ -134,6 +122,7 @@ Awesome On-Device Agents
 - The same paper may appear in more than one category when it is relevant to multiple themes.
 - For arXiv papers, the venue column is updated when a formal conference or journal version can be verified.
 - Open-source systems are listed separately from papers and are not treated as peer-reviewed publications.
+- The current scope prioritizes recent work from 2024 onward.
 - The current index is seeded by reviewed papers and should be expanded cautiously rather than treated as an exhaustive mobile-agent bibliography.
 
 ## Contribution
