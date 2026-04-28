@@ -100,7 +100,9 @@ Awesome On-Device Agents
 | AndroidWorld: A Dynamic Benchmarking Environment for Autonomous Agents | 2025.4 | ICLR | [Paper](https://proceedings.iclr.cc/paper_files/paper/2025/hash/01a83bc2f2732a58e6aa731e659e7101-Abstract-Conference.html) |
 | MobileAgentBench: An Efficient and User-Friendly Benchmark for Mobile LLM Agents | 2024.6 | arXiv | [Paper](https://arxiv.org/abs/2406.08184) |
 
-### 6. Edge Intelligence
+### 6. Edge Intelligence (Extended Reading)
+
+Extended reading on efficiency, scaling, and deployment trends that inform on-device agent research.
 
 | Paper | Date | Venue | Link |
 |---|---:|---|---|
