@@ -27,6 +27,19 @@ Out of scope:
 - Cloud-only agent systems with no mobile, edge, or deployment angle
 - Pure model capability papers without relevance to mobile agents or on-device inference
 
+## Contents
+
+- [Paper Index](#paper-index)
+  - [Survey](#1-survey)
+  - [Efficient On-device Inference](#2-efficient-on-device-inference)
+  - [Mobile Agent Systems, Safety, and Applications](#3-mobile-agent-systems-safety-and-applications)
+  - [Device-Cloud & Multi-device Collaboration](#4-device-cloud--multi-device-collaboration)
+  - [Dataset & Benchmark](#5-dataset--benchmark)
+  - [Edge Intelligence (Extended Reading)](#6-edge-intelligence-extended-reading)
+- [Open-Source Systems](#open-source-systems)
+- [Notes](#notes)
+- [Contribution](#contribution)
+
 ## Taxonomy
 
 ```text
@@ -76,6 +89,7 @@ Awesome On-Device Agents
 |---|---:|---|---|
 | Mobile GUI Agents under Real-world Threats: Are We There Yet? | 2026.4 | MobiSys | [Paper](https://doi.org/10.1145/3745756.3809249) |
 | MANA: Towards Efficient Mobile Ad Detection via Multimodal Agentic UI Navigation | 2026.3 | MobiCom | [Paper](https://arxiv.org/abs/2603.20351) |
+| AgentProg: Empowering Long-Horizon GUI Agents with Program-Guided Context Management | 2025.12 | arXiv | [Paper](https://arxiv.org/abs/2512.10371) |
 | VeriSafe Agent: Safeguarding Mobile GUI Agent via Logic-based Action Verification | 2025.11 | MobiCom | [Paper](https://doi.org/10.1145/3680207.3765248) |
 | Advancing Mobile GUI Agents: A Verifier-Driven Approach to Practical Deployment | 2025.10 | MobiCom | [Paper](https://arxiv.org/abs/2503.15937) |
 | UI-TARS-2 Technical Report: Advancing GUI Agent with Multi-Turn Reinforcement Learning | 2025.9 | arXiv | [Paper](https://arxiv.org/abs/2509.02544) |
@@ -112,7 +126,7 @@ Extended reading on efficiency, scaling, and deployment trends that inform on-de
 |---|---:|---|---|
 | Rethinking Scale: Deployment Trade-offs of Small Language Models under Agent Paradigms | 2026.4 | arXiv | [Paper](https://arxiv.org/abs/2604.19299) |
 | An Information Theoretic Perspective on Agentic System Design | 2026.4 | ICLR | [Paper](https://arxiv.org/abs/2512.21720) |
-| Densing law of LLMs | 2025.11 | Nat. Mach. Intell. | [Paper](https://doi.org/10.1038/s42256-025-01137-0) |
+| Densing law of LLMs | 2025.11 | Nature MI | [Paper](https://doi.org/10.1038/s42256-025-01137-0) |
 | Intelligence per Watt: Measuring Intelligence Efficiency of Local AI | 2025.11 | arXiv | [Paper](https://arxiv.org/abs/2511.07885) |
 | Small Language Models are the Future of Agentic AI | 2025.9 | arXiv | [Paper](https://arxiv.org/abs/2506.02153) |
 
