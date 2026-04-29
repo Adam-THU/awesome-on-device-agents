@@ -1,65 +1,65 @@
 # Awesome On-Device Agents
 
-[中文版](README_zh.md)
+[English](README.md)
 
-A curated reading list for **on-device agents**, **mobile GUI automation**, and **efficient on-device / edge inference**.
+一个整理 **端侧智能体**、**移动端 GUI 自动化** 和 **高效端侧 / 边缘推理** 相关论文与资源的阅读列表。
 
-This repository focuses on the intersection between two research questions:
+本仓库关注两个相互交叉的研究问题：
 
-1. How can agents perceive, reason, verify, and act on mobile devices and mobile apps?
-2. How can language models and agent systems run efficiently under on-device constraints such as latency, memory, energy, and heterogeneous accelerators?
+1. 智能体如何在移动设备和移动应用上感知、推理、验证并执行操作？
+2. 在时延、内存、能耗和异构加速器等端侧约束下，语言模型和智能体系统如何高效运行？
 
-Efficient on-device inference is a prerequisite for practical on-device agents: without low-latency, memory-efficient, and energy-aware inference, agents cannot reliably run close to users, data, sensors, and apps. The list is intentionally selective and currently focuses on recent papers from 2024 onward, starting from work closely related to mobile agents, on-device inference, mobile automation, safety, and device-cloud collaboration.
+高效端侧推理是实用端侧智能体的前提：如果没有低时延、低内存占用和能耗友好的推理能力，智能体就难以可靠地贴近用户、数据、传感器和应用运行。本列表是一个有选择性的论文库，目前优先收录 2024 年以来与移动智能体、端侧推理、移动自动化、安全和端云协同相关的工作。
 
-## Scope
+## 范围
 
-Included topics:
+收录主题：
 
-- Mobile GUI agents and Android task automation
-- Efficient on-device LLM / SLM inference
-- Safety, verification, and reliability for mobile agents
-- Agent applications on mobile apps and mobile security
-- Device-cloud and multi-device collaborative agents
-- Broader edge intelligence papers that inform on-device agent systems
-- Open-source systems for local inference, mobile AI engines, and device-cloud handoff
+- 移动端 GUI 智能体和 Android 任务自动化
+- 高效端侧 LLM / SLM 推理
+- 移动智能体的安全、验证和可靠性
+- 移动应用和移动安全中的智能体应用
+- 端云协同和多设备协同智能体
+- 对端侧智能体系统有启发的边缘智能相关工作
+- 本地推理、移动 AI 引擎和端云切换相关的开源系统
 
-Out of scope:
+暂不收录：
 
-- Generic web agents with no mobile or edge-device relevance
-- Cloud-only agent systems with no mobile, edge, or deployment angle
-- Pure model capability papers without relevance to mobile agents or on-device inference
+- 与移动端或边缘设备无关的通用 Web 智能体
+- 没有端侧、移动端或边缘部署视角的纯云端智能体系统
+- 与智能体、移动系统或端侧推理无关的纯模型能力论文
 
-## Contents
+## 目录
 
-- [Paper Index](#paper-index)
-  - [Survey](#1-survey)
-  - [Efficient On-device Inference](#2-efficient-on-device-inference)
-  - [Mobile Agent Systems, Safety, and Applications](#3-mobile-agent-systems-safety-and-applications)
-  - [Device-Cloud & Multi-device Collaboration](#4-device-cloud--multi-device-collaboration)
-  - [Dataset & Benchmark](#5-dataset--benchmark)
-  - [Edge Intelligence (Extended Reading)](#6-edge-intelligence-extended-reading)
-- [Open-Source Systems](#open-source-systems)
-- [Notes](#notes)
-- [Contribution](#contribution)
+- [论文索引](#论文索引)
+  - [综述](#1-综述)
+  - [高效端侧推理](#2-高效端侧推理)
+  - [移动智能体系统、安全与应用](#3-移动智能体系统安全与应用)
+  - [端云与多设备协同](#4-端云与多设备协同)
+  - [数据集与基准](#5-数据集与基准)
+  - [边缘智能（扩展阅读）](#6-边缘智能扩展阅读)
+- [开源系统](#开源系统)
+- [说明](#说明)
+- [贡献](#贡献)
 
-## Taxonomy
+## 分类
 
 ```text
 Awesome On-Device Agents
-+-- Survey
-+-- Efficient On-device Inference
-+-- Mobile Agent Systems, Safety, and Applications
-+-- Device-Cloud & Multi-device Collaboration
-+-- Dataset & Benchmark
-+-- Edge Intelligence
-+-- Open-Source Systems
++-- 综述
++-- 高效端侧推理
++-- 移动智能体系统、安全与应用
++-- 端云与多设备协同
++-- 数据集与基准
++-- 边缘智能
++-- 开源系统
 ```
 
-## Paper Index
+## 论文索引
 
-### 1. Survey
+### 1. 综述
 
-| Paper | Date | Venue | Link |
+| 论文 | 日期 | 会议/期刊 | 链接 |
 |---|---:|---|---|
 | Efficient Inference for Edge Large Language Models: A Survey | 2026.6 | TST | [Paper](https://doi.org/10.26599/TST.2025.9010166) |
 | GUI Agents: A Survey | 2025.7 | Findings ACL | [Paper](https://aclanthology.org/2025.findings-acl.1158/) |
@@ -68,9 +68,9 @@ Awesome On-Device Agents
 | On-Device Language Models: A Comprehensive Review | 2024.8 | arXiv | [Paper](https://arxiv.org/abs/2409.00088) |
 | Personal LLM Agents: Insights and Survey about the Capability, Efficiency and Security | 2024.1 | arXiv | [Paper](https://arxiv.org/abs/2401.05459) |
 
-### 2. Efficient On-device Inference
+### 2. 高效端侧推理
 
-| Paper | Date | Venue | Link |
+| 论文 | 日期 | 会议/期刊 | 链接 |
 |---|---:|---|---|
 | Scaling LLM Test-Time Compute with Mobile NPU on Smartphones | 2026.4 | EuroSys | [Paper](https://doi.org/10.1145/3767295.3769382) |
 | Elastic On-Device LLM Service | 2025.11 | MobiCom | [Paper](https://doi.org/10.1145/3680207.3765259) |
@@ -85,9 +85,9 @@ Awesome On-Device Agents
 | T-MAC: CPU Renaissance via Table Lookup for Low-Bit LLM Deployment on Edge | 2025.3 | EuroSys | [Paper](https://doi.org/10.1145/3689031.3696099) |
 | PowerInfer-2: Fast Large Language Model Inference on a Smartphone | 2024.6 | arXiv | [Paper](https://arxiv.org/abs/2406.06282) |
 
-### 3. Mobile Agent Systems, Safety, and Applications
+### 3. 移动智能体系统、安全与应用
 
-| Paper | Date | Venue | Link |
+| 论文 | 日期 | 会议/期刊 | 链接 |
 |---|---:|---|---|
 | Mobile GUI Agents under Real-world Threats: Are We There Yet? | 2026.4 | MobiSys | [Paper](https://doi.org/10.1145/3745756.3809249) |
 | MANA: Towards Efficient Mobile Ad Detection via Multimodal Agentic UI Navigation | 2026.3 | MobiCom | [Paper](https://arxiv.org/abs/2603.20351) |
@@ -100,9 +100,9 @@ Awesome On-Device Agents
 | LLM-Explorer: Towards Efficient and Affordable LLM-based Exploration for Mobile Apps | 2025.5 | MobiCom | [Paper](https://arxiv.org/abs/2505.10593) |
 | AutoDroid: LLM-powered Task Automation in Android | 2024.5 | MobiCom | [Paper](https://doi.org/10.1145/3636534.3649379) |
 
-### 4. Device-Cloud & Multi-device Collaboration
+### 4. 端云与多设备协同
 
-| Paper | Date | Venue | Link |
+| 论文 | 日期 | 会议/期刊 | 链接 |
 |---|---:|---|---|
 | EcoAgent: An Efficient Device-Cloud Collaborative Multi-Agent Framework for Mobile Automation | 2026.4 | AAAI | [Paper](https://doi.org/10.1609/aaai.v40i35.40230) |
 | OpenPhone: Mobile Agentic Foundation Models | 2025.10 | arXiv | [Paper](https://arxiv.org/abs/2510.22009) |
@@ -112,19 +112,19 @@ Awesome On-Device Agents
 | EdgeShard: Efficient LLM Inference via Collaborative Edge Computing | 2025.5 | JIOT | [Paper](https://doi.org/10.1109/JIOT.2024.3524255) |
 | Galaxy: A Resource-Efficient Collaborative Edge AI System for In-situ Transformer Inference | 2024.5 | INFOCOM | [Paper](https://doi.org/10.1109/INFOCOM52122.2024.10621342) |
 
-### 5. Dataset & Benchmark
+### 5. 数据集与基准
 
-| Paper | Date | Venue | Link |
+| 论文 | 日期 | 会议/期刊 | 链接 |
 |---|---:|---|---|
 | AndroidLab: Training and Systematic Benchmarking of Android Autonomous Agents | 2025.7 | ACL | [Paper](https://aclanthology.org/2025.acl-long.107/) |
 | AndroidWorld: A Dynamic Benchmarking Environment for Autonomous Agents | 2025.4 | ICLR | [Paper](https://proceedings.iclr.cc/paper_files/paper/2025/hash/01a83bc2f2732a58e6aa731e659e7101-Abstract-Conference.html) |
 | MobileAgentBench: An Efficient and User-Friendly Benchmark for Mobile LLM Agents | 2024.6 | arXiv | [Paper](https://arxiv.org/abs/2406.08184) |
 
-### 6. Edge Intelligence (Extended Reading)
+### 6. 边缘智能（扩展阅读）
 
-Extended reading on efficiency, scaling, and deployment trends that inform on-device agent research.
+这些论文不是本仓库的主要目标，但有助于理解端侧智能体背后的效率、扩展规律和部署趋势。
 
-| Paper | Date | Venue | Link |
+| 论文 | 日期 | 会议/期刊 | 链接 |
 |---|---:|---|---|
 | Rethinking Scale: Deployment Trade-offs of Small Language Models under Agent Paradigms | 2026.4 | arXiv | [Paper](https://arxiv.org/abs/2604.19299) |
 | An Information Theoretic Perspective on Agentic System Design | 2026.4 | ICLR | [Paper](https://arxiv.org/abs/2512.21720) |
@@ -132,28 +132,28 @@ Extended reading on efficiency, scaling, and deployment trends that inform on-de
 | Intelligence per Watt: Measuring Intelligence Efficiency of Local AI | 2025.11 | arXiv | [Paper](https://arxiv.org/abs/2511.07885) |
 | Small Language Models are the Future of Agentic AI | 2025.9 | arXiv | [Paper](https://arxiv.org/abs/2506.02153) |
 
-## Open-Source Systems
+## 开源系统
 
-| Project | Focus | Platform / Scope | Link |
+| 项目 | 关注点 | 平台 / 范围 | 链接 |
 |---|---|---|---|
-| llama.cpp | Widely used local LLM inference runtime with CPU/GPU backends and broad model support | Local LLM inference | [GitHub](https://github.com/ggml-org/llama.cpp) |
-| MLC LLM | Universal LLM deployment engine targeting native apps, mobile devices, browsers, and GPUs | Cross-platform LLM deployment | [GitHub](https://github.com/mlc-ai/mlc-llm) |
-| ExecuTorch | PyTorch edge runtime for deploying AI models on mobile, embedded, and edge devices | On-device AI runtime | [GitHub](https://github.com/pytorch/executorch) |
-| MNN | Lightweight deep learning inference engine for mobile and edge devices, with LLM deployment support | Mobile and edge inference | [GitHub](https://github.com/alibaba/MNN) |
-| OmniInfer | Cross-platform local LLM/VLM inference engine with multi-backend support and OpenAI-compatible API server | Local inference across devices | [GitHub](https://github.com/omnimind-ai/OmniInfer) |
-| Cactus | Low-latency AI engine for mobile devices and wearables, with multimodal APIs, ARM optimizations, and cloud fallback | Mobile and wearable AI | [GitHub](https://github.com/cactus-compute/cactus) |
-| mLLM | Fast and lightweight multimodal LLM inference engine for mobile and edge devices, with Android, Jetson, and QNN/NPU support | Mobile and edge multimodal inference | [GitHub](https://github.com/UbiquitousLearning/mLLM) |
-| Open-AutoGLM | Phone agent framework that uses VLM-based screen understanding, planning, and ADB-based device control for mobile task automation | Android phone agent | [GitHub](https://github.com/zai-org/Open-AutoGLM) |
-| Mobile-Agent | Open-source mobile device operation assistant framework for GUI task automation | Mobile GUI agent | [GitHub](https://github.com/X-PLUG/MobileAgent) |
+| llama.cpp | 常用的本地 LLM 推理运行时，支持 CPU/GPU 后端和广泛的模型生态 | 本地 LLM 推理 | [GitHub](https://github.com/ggml-org/llama.cpp) |
+| MLC LLM | 面向原生应用、移动设备、浏览器和 GPU 的通用 LLM 部署引擎 | 跨平台 LLM 部署 | [GitHub](https://github.com/mlc-ai/mlc-llm) |
+| ExecuTorch | PyTorch 端侧运行时，用于在移动、嵌入式和边缘设备上部署 AI 模型 | 端侧 AI 运行时 | [GitHub](https://github.com/pytorch/executorch) |
+| MNN | 面向移动和边缘设备的轻量级深度学习推理引擎，支持 LLM 部署 | 移动和边缘推理 | [GitHub](https://github.com/alibaba/MNN) |
+| OmniInfer | 跨平台本地 LLM/VLM 推理引擎，支持多后端和 OpenAI 兼容 API server | 跨设备本地推理 | [GitHub](https://github.com/omnimind-ai/OmniInfer) |
+| Cactus | 面向移动设备和可穿戴设备的低时延 AI 引擎，支持多模态 API、ARM 优化和云端 fallback | 移动与可穿戴 AI | [GitHub](https://github.com/cactus-compute/cactus) |
+| mLLM | 面向移动和边缘设备的快速轻量多模态 LLM 推理引擎，支持 Android、Jetson 和 QNN/NPU | 移动和边缘多模态推理 | [GitHub](https://github.com/UbiquitousLearning/mLLM) |
+| Open-AutoGLM | 基于 VLM 屏幕理解、规划和 ADB 控制的手机智能体框架 | Android 手机智能体 | [GitHub](https://github.com/zai-org/Open-AutoGLM) |
+| Mobile-Agent | 面向 GUI 任务自动化的开源移动设备操作智能体框架 | 移动 GUI 智能体 | [GitHub](https://github.com/X-PLUG/MobileAgent) |
 
-## Notes
+## 说明
 
-- The same paper may appear in more than one category when it is relevant to multiple themes.
-- For arXiv papers, the venue column is updated when a formal conference or journal version can be verified.
-- Open-source systems are listed separately from papers and are not treated as peer-reviewed publications.
-- The current scope prioritizes recent work from 2024 onward.
-- The current index is seeded by reviewed papers and should be expanded cautiously rather than treated as an exhaustive mobile-agent bibliography.
+- 同一篇论文如果和多个主题相关，可能会出现在最合适的综合分类下。
+- 对 arXiv 论文，如果能确认正式发表版本，会更新会议或期刊信息。
+- 开源系统和论文分开列出，不视为经过同行评审的论文。
+- 当前收录范围优先考虑 2024 年以来的近期工作。
+- 当前索引以人工筛选过的论文为起点，后续扩展应保持谨慎，不追求无差别穷举。
 
-## Contribution
+## 贡献
 
-Contributions are welcome. Please see [CONTRIBUTING.md](CONTRIBUTING.md).
+欢迎贡献。请参阅 [CONTRIBUTING.md](CONTRIBUTING.md)。
