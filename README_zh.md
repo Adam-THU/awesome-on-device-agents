@@ -104,6 +104,7 @@ Awesome On-Device Agents
 
 | 论文 | 日期 | 会议/期刊 | 链接 |
 |---|---:|---|---|
+| Empowering Edge Agents: A Systematic Analysis of Edge-Cloud Collaboration in LLM Agent Execution | 2026.10 | arXiv | [Paper](https://arxiv.org/abs/2610.17816) |
 | EcoAgent: An Efficient Device-Cloud Collaborative Multi-Agent Framework for Mobile Automation | 2026.4 | AAAI | [Paper](https://arxiv.org/abs/2505.05440) |
 | OpenPhone: Mobile Agentic Foundation Models | 2025.10 | arXiv | [Paper](https://arxiv.org/abs/2510.22009) |
 | Jupiter: Fast and Resource-Efficient Collaborative Inference of Generative LLMs on Edge Devices | 2025.5 | INFOCOM | [Paper](https://doi.org/10.1109/INFOCOM55648.2025.11044734) |
